@@ -10,6 +10,8 @@ import CustomersSection from './CustomersSection';
 import Brands from './Brands';
 import BlogSection from './Blogs';
 import Footer from './Footer';
+import Customers from './Customer';
+import Testimonial from './OurTestimonials';
 
 const Home = () => {
   return (
@@ -59,7 +61,9 @@ const Home = () => {
       <PetranSection />
       <HRToolsSection/>
       <CustomersSection/>
+      <Customers/>
       <Brands/>
+      <Testimonial/>
       <BlogSection/>
       <Footer/>
       </>

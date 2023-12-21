@@ -1,4 +1,3 @@
-// BlogPost.jsx
 import React from 'react';
 
 const BlogPost = ({ title, imageUrl, authorName, date, readTime, content }) => {
@@ -19,7 +18,6 @@ const BlogPost = ({ title, imageUrl, authorName, date, readTime, content }) => {
         <div className="flex-shrink-0">
           <a href="#">
             <span className="sr-only">{authorName}</span>
-            {/* Replace the next line with your actual author image source */}
             <img src="./Img/zara.webp" className="md:h-10 md:w-10 h-10 w-10 rounded-full" alt={authorName} loading="lazy" decoding="async" />
           </a>
         </div>
