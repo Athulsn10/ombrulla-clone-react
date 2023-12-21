@@ -6,7 +6,6 @@ import Section4 from './Section4';
 import Section5 from './Section5';
 import PetranSection from './PetranSection';
 import HRToolsSection from './HRToolsSection';
-import CustomersSection from './CustomersSection';
 import Brands from './Brands';
 import BlogSection from './Blogs';
 import Footer from './Footer';
@@ -60,7 +59,6 @@ const Home = () => {
       <Section5/>
       <PetranSection />
       <HRToolsSection/>
-      <CustomersSection/>
       <Customers/>
       <Brands/>
       <Testimonial/>
